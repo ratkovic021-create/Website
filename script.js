@@ -68,11 +68,11 @@ form.addEventListener('submit', (e) => {
 
   const btn = form.querySelector('button[type="submit"]');
   const original = btn.textContent;
-  btn.textContent = 'Sending…';
+  btn.textContent = 'Slanje…';
   btn.disabled = true;
 
   setTimeout(() => {
-    btn.textContent = '✓ Message Sent!';
+    btn.textContent = '✓ Upit poslat!';
     btn.style.background = '#4a7a5a';
 
     setTimeout(() => {

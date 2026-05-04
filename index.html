@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="LUMA Beauty Studio — Premium salon and beauty experiences in [Your City]. Book your appointment today." />
-  <title>LUMA Beauty Studio | Premium Salon &amp; Wellness</title>
+  <meta name="description" content="\ Souvenirs — Autentični srpski suveniri, narodna rukotvorina i ručno rađeni pokloni u srcu Novog Sada. Dunavska 2." />
+  <title>\ Souvenirs | Autentični srpski pokloni · Novi Sad</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
@@ -17,35 +17,38 @@
   ════════════════════════════════════════ -->
   <header class="header" id="header">
     <div class="header__inner">
-      <a href="#" class="logo">
-        <span class="logo__wordmark">LUMA</span>
-        <span class="logo__sub">Beauty Studio</span>
+      <a href="#" class="logo" aria-label="\ Souvenirs — Početna">
+        <span class="logo__slash">\</span>
+        <span class="logo__text">
+          <span class="logo__wordmark">Souvenirs</span>
+          <span class="logo__sub">Novi Sad, Srbija</span>
+        </span>
       </a>
-      <nav class="nav" aria-label="Main">
-        <a href="#services" class="nav__link">Services</a>
-        <a href="#about" class="nav__link">About</a>
-        <a href="#testimonials" class="nav__link">Reviews</a>
-        <a href="#gallery" class="nav__link">Gallery</a>
+      <nav class="nav" aria-label="Glavna navigacija">
+        <a href="#kolekcije" class="nav__link">Kolekcije</a>
+        <a href="#o-nama" class="nav__link">O nama</a>
+        <a href="#recenzije" class="nav__link">Recenzije</a>
+        <a href="#galerija" class="nav__link">Galerija</a>
       </nav>
-      <a href="#contact" class="btn btn--outline header__cta">Book Now</a>
-      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <a href="#kontakt" class="btn btn--outline header__cta">Posetite nas</a>
+      <button class="hamburger" id="hamburger" aria-label="Otvori meni" aria-expanded="false">
         <span></span>
         <span></span>
       </button>
     </div>
     <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#testimonials">Reviews</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact" class="mobile-nav__cta">Book an Appointment</a>
+      <a href="#kolekcije">Kolekcije</a>
+      <a href="#o-nama">O nama</a>
+      <a href="#recenzije">Recenzije</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#kontakt" class="mobile-nav__cta">Posetite nas · Dunavska 2</a>
     </nav>
   </header>
 
   <!-- ═══════════════════════════════════════
        HERO
   ════════════════════════════════════════ -->
-  <section class="hero" id="home">
+  <section class="hero" id="pocetak">
     <div class="hero__bg">
       <div class="orb orb--1"></div>
       <div class="orb orb--2"></div>
@@ -55,20 +58,21 @@
     <div class="hero__body">
       <div class="hero__eyebrow reveal">
         <span class="pulse-dot"></span>
-        Premium Beauty Studio &nbsp;·&nbsp; [Your City]
+        Prodavnica suvenira &nbsp;·&nbsp; Dunavska 2, Novi Sad
       </div>
       <h1 class="hero__title">
-        <span class="hero__title-line reveal">Beauty Without</span>
-        <span class="hero__title-line hero__title-line--italic reveal reveal--d1"><em>Compromise.</em></span>
+        <span class="hero__title-line reveal">Ponesite komad</span>
+        <span class="hero__title-line hero__title-line--italic reveal reveal--d1"><em>Srbije kući.</em></span>
       </h1>
       <p class="hero__sub reveal reveal--d2">
-        Bespoke beauty and wellness experiences crafted for those<br class="hide-sm" />
-        who appreciate the art of exceptional care.
+        Autentični suveniri, narodna rukotvorina i ručno rađeni pokloni<br class="hide-sm" />
+        iz srca Novog Sada — za one koji traže pravi smisao<br class="hide-sm" />
+        u svakom suveniru.
       </p>
       <div class="hero__ctas reveal reveal--d3">
-        <a href="#contact" class="btn btn--gold">Book an Appointment</a>
-        <a href="#services" class="btn btn--text-light">
-          Explore Services
+        <a href="#kontakt" class="btn btn--gold">Pronađite nas u Novom Sadu</a>
+        <a href="#kolekcije" class="btn btn--text-light">
+          Istražite kolekcije
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
             <path d="M3.75 9H14.25M10.5 5.25L14.25 9l-3.75 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -78,24 +82,24 @@
 
     <div class="hero__stats">
       <div class="hero__stat reveal">
-        <span class="hero__stat-n">800+</span>
-        <span class="hero__stat-l">Happy Clients</span>
+        <span class="hero__stat-n">86+</span>
+        <span class="hero__stat-l">Google recenzija</span>
       </div>
       <div class="hero__stat-div"></div>
       <div class="hero__stat reveal reveal--d1">
-        <span class="hero__stat-n">6+</span>
-        <span class="hero__stat-l">Years of Excellence</span>
+        <span class="hero__stat-n">4.6<sup class="gold-sup">★</sup></span>
+        <span class="hero__stat-l">Prosečna ocena</span>
       </div>
       <div class="hero__stat-div"></div>
       <div class="hero__stat reveal reveal--d2">
-        <span class="hero__stat-n">4.9<sup class="gold-sup">★</sup></span>
-        <span class="hero__stat-l">Average Rating</span>
+        <span class="hero__stat-n">7</span>
+        <span class="hero__stat-l">Dana nedeljno</span>
       </div>
     </div>
 
-    <a href="#services" class="hero__scroll" aria-label="Scroll down">
+    <a href="#kolekcije" class="hero__scroll" aria-label="Skrolujte dole">
       <div class="scroll-line"></div>
-      <span>Scroll</span>
+      <span>Skrol</span>
     </a>
   </section>
 
@@ -105,35 +109,35 @@
   <div class="marquee-band" aria-hidden="true">
     <div class="marquee__track">
       <div class="marquee__inner">
-        <span>Hair Color &amp; Styling</span><span class="mdot">◆</span>
-        <span>Luxury Facials</span><span class="mdot">◆</span>
-        <span>Lash Extensions</span><span class="mdot">◆</span>
-        <span>Nail Artistry</span><span class="mdot">◆</span>
-        <span>Skin Treatments</span><span class="mdot">◆</span>
-        <span>Brow Design</span><span class="mdot">◆</span>
-        <span>Massage &amp; Body</span><span class="mdot">◆</span>
-        <span>Bridal &amp; Events</span><span class="mdot">◆</span>
-        <span>Hair Color &amp; Styling</span><span class="mdot">◆</span>
-        <span>Luxury Facials</span><span class="mdot">◆</span>
-        <span>Lash Extensions</span><span class="mdot">◆</span>
-        <span>Nail Artistry</span><span class="mdot">◆</span>
-        <span>Skin Treatments</span><span class="mdot">◆</span>
-        <span>Brow Design</span><span class="mdot">◆</span>
-        <span>Massage &amp; Body</span><span class="mdot">◆</span>
-        <span>Bridal &amp; Events</span><span class="mdot">◆</span>
+        <span>Narodne rukotvorine</span><span class="mdot">◆</span>
+        <span>Lokalna umetnost</span><span class="mdot">◆</span>
+        <span>Srpska keramika</span><span class="mdot">◆</span>
+        <span>Nakit nasleđa</span><span class="mdot">◆</span>
+        <span>Gurmansko-gastro pokloni</span><span class="mdot">◆</span>
+        <span>Novosadski suveniri</span><span class="mdot">◆</span>
+        <span>Narodna tekstilna umetnost</span><span class="mdot">◆</span>
+        <span>Artizanski proizvodi</span><span class="mdot">◆</span>
+        <span>Narodne rukotvorine</span><span class="mdot">◆</span>
+        <span>Lokalna umetnost</span><span class="mdot">◆</span>
+        <span>Srpska keramika</span><span class="mdot">◆</span>
+        <span>Nakit nasleđa</span><span class="mdot">◆</span>
+        <span>Gurmansko-gastro pokloni</span><span class="mdot">◆</span>
+        <span>Novosadski suveniri</span><span class="mdot">◆</span>
+        <span>Narodna tekstilna umetnost</span><span class="mdot">◆</span>
+        <span>Artizanski proizvodi</span><span class="mdot">◆</span>
       </div>
     </div>
   </div>
 
   <!-- ═══════════════════════════════════════
-       SERVICES
+       KOLEKCIJE
   ════════════════════════════════════════ -->
-  <section class="services section" id="services">
+  <section class="services section" id="kolekcije">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow-label">What We Offer</span>
-        <h2 class="section-title">Signature Services,<br /><em>Remarkable Results</em></h2>
-        <p class="section-desc">Every service is a ceremony. We combine the finest techniques, curated products, and genuine expertise to deliver results that speak for themselves.</p>
+        <span class="eyebrow-label">Šta nudimo</span>
+        <h2 class="section-title">Pažljivo birane kolekcije,<br /><em>Prave priče</em></h2>
+        <p class="section-desc">Svaki predmet koji prodajemo pažljivo je odabran od lokalnih zanatlija, majstora i stvaralaca koji u svoj rad utkaju bogato srpsko nasleđe.</p>
       </div>
       <div class="services__grid">
 
@@ -141,15 +145,14 @@
           <div class="scard__num">01</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <path d="M13 3C7.477 3 3 7.477 3 13s4.477 10 10 10 10-4.477 10-10S18.523 3 13 3z" stroke="currentColor" stroke-width="1.4"/>
-              <path d="M13 8v5l3.5 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M13 3l2.5 7H23l-6 4.5 2.5 7L13 17l-6.5 4.5 2.5-7L3 10h7.5L13 3z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 class="scard__title">Hair Color &amp; Styling</h3>
-          <p class="scard__desc">From subtle balayage to bold transformations — our colorists bring your vision to life with precision, care, and an artist's eye.</p>
+          <h3 class="scard__title">Narodne rukotvorine</h3>
+          <p class="scard__desc">Ručno tkane tkanine, narodna vezenja i vekovni zanati prenošeni s kolena na koleno — svaki predmet je živi deo srpskog nasleđa.</p>
           <div class="scard__foot">
-            <span class="scard__price">From $85</span>
-            <a href="#contact" class="scard__link">Book →</a>
+            <span class="scard__price">Od 500 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -157,15 +160,15 @@
           <div class="scard__num">02</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <circle cx="13" cy="13" r="5" stroke="currentColor" stroke-width="1.4"/>
-              <path d="M13 4v2M13 20v2M4 13h2M20 13h2M6.34 6.34l1.42 1.42M18.24 18.24l1.42 1.42M18.24 7.76l-1.42 1.42M7.76 18.24l-1.42 1.42" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <rect x="3" y="3" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M3 13l5-4 5 4 5-5 5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 class="scard__title">Luxury Facials</h3>
-          <p class="scard__desc">Medical-grade skin treatments tailored to your unique skin type — delivering deep restoration, clarity, and that unmistakable glow.</p>
+          <h3 class="scard__title">Lokalna umetnost i grafike</h3>
+          <p class="scard__desc">Originalne ilustracije, fotografije i grafički otisci novosadskih umetnika — duh grada zarobljen na papiru, savršen za svaki dom.</p>
           <div class="scard__foot">
-            <span class="scard__price">From $110</span>
-            <a href="#contact" class="scard__link">Book →</a>
+            <span class="scard__price">Od 800 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -173,15 +176,15 @@
           <div class="scard__num">03</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <path d="M6 13l4.5 4.5 9.5-9.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-              <circle cx="13" cy="13" r="10" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M5 18c0-4.418 3.582-8 8-8s8 3.582 8 8v2H5v-2z" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M13 10V7M9 8l2 2M17 8l-2 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3 class="scard__title">Lash &amp; Brow</h3>
-          <p class="scard__desc">Frame your features with expert lash extensions, lifts, and precision brow design that complements your natural beauty effortlessly.</p>
+          <h3 class="scard__title">Keramika i grnčarija</h3>
+          <p class="scard__desc">Ručno oslikane tradicionale srpske glinene figure, od ukrasnih tanjira i šolja do filigranskih ukrasa — lepo i funkcionalno.</p>
           <div class="scard__foot">
-            <span class="scard__price">From $65</span>
-            <a href="#contact" class="scard__link">Book →</a>
+            <span class="scard__price">Od 1.200 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -189,15 +192,15 @@
           <div class="scard__num">04</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <path d="M9 21v-2a4 4 0 018 0v2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              <circle cx="13" cy="10" r="4" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M13 5a4 4 0 014 4c0 4-4 9-4 9s-4-5-4-9a4 4 0 014-4z" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="13" cy="9" r="1.5" stroke="currentColor" stroke-width="1.4"/>
             </svg>
           </div>
-          <h3 class="scard__title">Nail Artistry</h3>
-          <p class="scard__desc">Luxury manicures and pedicures that elevate nail care to an art form — from classic elegance to contemporary nail artistry.</p>
+          <h3 class="scard__title">Nakit narodnog nasleđa</h3>
+          <p class="scard__desc">Privesci, prstenje i ukrasi inspirisani vekovima srpske ornamentike — predmeti koji nose istoriju u sebi i lepotu na sebi.</p>
           <div class="scard__foot">
-            <span class="scard__price">From $55</span>
-            <a href="#contact" class="scard__link">Book →</a>
+            <span class="scard__price">Od 1.500 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -205,16 +208,16 @@
           <div class="scard__num">05</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <path d="M13 4C8.029 4 4 8.029 4 13c0 2.9 1.34 5.49 3.44 7.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              <path d="M13 4c4.971 0 9 4.029 9 9 0 2.9-1.34 5.49-3.44 7.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              <circle cx="13" cy="13" r="3" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M8 20V10a5 5 0 0110 0v10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M5 20h16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M11 10h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3 class="scard__title">Body &amp; Wellness</h3>
-          <p class="scard__desc">Restorative massage and body treatments designed to melt away stress and tension — leaving you renewed from the inside out.</p>
+          <h3 class="scard__title">Gurmansko-gastro pokloni</h3>
+          <p class="scard__desc">Domaća rakija, lokalni med, artizanski džemovi i delikatesni prehrambeni proizvodi — ukusi regiona, prelepo upakovani za poklon.</p>
           <div class="scard__foot">
-            <span class="scard__price">From $95</span>
-            <a href="#contact" class="scard__link">Book →</a>
+            <span class="scard__price">Od 900 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -222,15 +225,15 @@
           <div class="scard__num">06</div>
           <div class="scard__icon">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-              <path d="M4 14l4.5-4.5 4 4 4-4 5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M4 19l4.5-4.5 4 4 4-4 5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13 3C7.477 3 3 7.477 3 13s4.477 10 10 10 10-4.477 10-10S18.523 3 13 3z" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M3 13h4M19 13h4M13 3v4M13 19v4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
             </svg>
           </div>
-          <h3 class="scard__title">Bridal &amp; Events</h3>
-          <p class="scard__desc">Flawless beauty for your most important moments. Our bridal specialists ensure you look and feel extraordinary on your special day.</p>
+          <h3 class="scard__title">Novosadski suveniri</h3>
+          <p class="scard__desc">Magneti, šolje, ilustrovane razglednice i kolekcionarski predmeti s motivima Novog Sada — savršeni pokloni za svakog posetioca.</p>
           <div class="scard__foot">
-            <span class="scard__price">Custom Packages</span>
-            <a href="#contact" class="scard__link">Enquire →</a>
+            <span class="scard__price">Od 300 RSD</span>
+            <a href="#kontakt" class="scard__link">Istražite →</a>
           </div>
         </article>
 
@@ -239,33 +242,33 @@
   </section>
 
   <!-- ═══════════════════════════════════════
-       PROMISE STRIP (dark)
+       NAŠE OBEĆANJE (dark strip)
   ════════════════════════════════════════ -->
   <section class="promise">
     <div class="promise__bg-orb"></div>
     <div class="container promise__inner">
       <div class="promise__text reveal">
-        <span class="eyebrow-label eyebrow-label--light">The LUMA Promise</span>
-        <h2 class="promise__title">Your comfort,<br /><em>your way.</em></h2>
-        <p class="promise__desc">We believe luxury should feel personal. Every appointment is crafted around your goals, your preferences, your pace.</p>
+        <span class="eyebrow-label eyebrow-label--light">Naše obećanje</span>
+        <h2 class="promise__title">Autentični pokloni,<br /><em>prave priče.</em></h2>
+        <p class="promise__desc">Verujemo da svaki suvenir treba da nosi pravo značenje. Sve u našoj prodavnici pažljivo je birano od lokalnih zanatlija i stvaralaca koji u svoja dela ugrađuju srpsko nasleđe.</p>
         <ul class="promise__list">
-          <li><span class="promise__tick">✦</span> Complimentary consultation with every visit</li>
-          <li><span class="promise__tick">✦</span> Premium, cruelty-free product lines only</li>
-          <li><span class="promise__tick">✦</span> Private suites available on request</li>
-          <li><span class="promise__tick">✦</span> 100% satisfaction guarantee</li>
+          <li><span class="promise__tick">✦</span> Isključivo lokalno nabavljeni proizvodi</li>
+          <li><span class="promise__tick">✦</span> Podržavamo novosadske zanatlije i umetnike</li>
+          <li><span class="promise__tick">✦</span> Svaki predmet dolazi sa svojom pričom</li>
+          <li><span class="promise__tick">✦</span> Savršeno za svaki budžet i prigodu</li>
         </ul>
-        <a href="#contact" class="btn btn--gold">Experience the Difference</a>
+        <a href="#kolekcije" class="btn btn--gold">Otkrijte šta je unutra</a>
       </div>
       <div class="promise__card-wrap reveal reveal--d1">
         <div class="promise__card">
           <div class="promise__card-inner">
             <span class="promise__qmark">"</span>
-            <p>The most beautiful experience — every single time.</p>
+            <p>Svaki predmet nosi priču koju želim da podelim s ljudima kod kuće.</p>
             <div class="promise__attrib">
               <div class="attrib-avatar"></div>
               <div>
-                <strong>Sarah M.</strong>
-                <span>Client since 2021</span>
+                <strong>Thomas W.</strong>
+                <span>Posetilac iz Nemačke</span>
               </div>
             </div>
           </div>
@@ -276,26 +279,26 @@
   </section>
 
   <!-- ═══════════════════════════════════════
-       TESTIMONIALS
+       RECENZIJE
   ════════════════════════════════════════ -->
-  <section class="testimonials section" id="testimonials">
+  <section class="testimonials section" id="recenzije">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow-label">Client Stories</span>
-        <h2 class="section-title">Heard from<br /><em>Those Who Know</em></h2>
+        <span class="eyebrow-label">Šta kažu posetioci</span>
+        <h2 class="section-title">Reči onih koji<br /><em>su nas posetili</em></h2>
       </div>
       <div class="tgrid">
 
         <article class="tcard reveal">
           <div class="tcard__stars">★★★★★</div>
           <blockquote class="tcard__quote">
-            "I've been to salons all over the city and nothing compares. The attention to detail is unreal — they actually listen and deliver every single time."
+            "Proveo sam divno popodne istražujući ovaj dragulj. Izbor je za razliku od svake druge prodavnice suvenira — sve deluje autentično i prelepo napravljeno."
           </blockquote>
           <footer class="tcard__foot">
             <div class="tavatar tavatar--1"></div>
             <div>
-              <strong>Jennifer K.</strong>
-              <span>Hair Color Client</span>
+              <strong>Thomas W.</strong>
+              <span>Posetilac iz Nemačke</span>
             </div>
           </footer>
         </article>
@@ -303,13 +306,13 @@
         <article class="tcard reveal reveal--d1">
           <div class="tcard__stars">★★★★★</div>
           <blockquote class="tcard__quote">
-            "My skin has never looked better. The facial I got here was unlike anything I've experienced — professional, calming, and the results lasted for weeks."
+            "Uvek prvo dovodem strane posetioce ovde. Ovo je najbolje mesto za pronalaženje pravih novosadskih poklona — ništa ne izgleda masovno ili generičko."
           </blockquote>
           <footer class="tcard__foot">
             <div class="tavatar tavatar--2"></div>
             <div>
-              <strong>Maria R.</strong>
-              <span>Facial Treatment Client</span>
+              <strong>Milica J.</strong>
+              <span>Meštanka</span>
             </div>
           </footer>
         </article>
@@ -317,28 +320,28 @@
         <article class="tcard reveal reveal--d2">
           <div class="tcard__stars">★★★★★</div>
           <blockquote class="tcard__quote">
-            "They did my entire bridal party and we all looked absolutely stunning. Worth every penny — book them now before they're fully booked!"
+            "Kupili smo tradicionalnu keramiku kao svadbeni poklon i bila je apsolutno prelepa. Osoblje je znalo tačno odakle svaki predmet potiče i šta znači."
           </blockquote>
           <footer class="tcard__foot">
             <div class="tavatar tavatar--3"></div>
             <div>
-              <strong>Amanda T.</strong>
-              <span>Bridal Package Client</span>
+              <strong>Ana i Nikola</strong>
+              <span>Kupci svadbenog poklona</span>
             </div>
           </footer>
         </article>
 
       </div>
       <div class="tgrid__cta reveal">
-        <a href="#" class="btn btn--outline-dark">Read All Reviews on Google</a>
+        <a href="https://maps.app.goo.gl" target="_blank" rel="noopener" class="btn btn--outline-dark">Pročitajte svih 86 recenzija na Google-u</a>
       </div>
     </div>
   </section>
 
   <!-- ═══════════════════════════════════════
-       ABOUT
+       O NAMA
   ════════════════════════════════════════ -->
-  <section class="about section" id="about">
+  <section class="about section" id="o-nama">
     <div class="container about__grid">
 
       <div class="about__visual reveal">
@@ -346,60 +349,60 @@
           <div class="about__img-inner"></div>
         </div>
         <div class="about__badge reveal reveal--d1">
-          <span class="about__badge-n">6+</span>
-          <span class="about__badge-l">Years in<br />the craft</span>
+          <span class="about__badge-n">4.6<span class="badge-star">★</span></span>
+          <span class="about__badge-l">86 recenzija<br />na Google-u</span>
         </div>
       </div>
 
       <div class="about__content reveal reveal--d1">
-        <span class="eyebrow-label">Our Story</span>
-        <h2 class="section-title">Born from passion,<br /><em>built on trust.</em></h2>
-        <p>LUMA Studio was founded on a simple belief: everyone deserves to feel extraordinary. We grew from a single-chair studio into [Your City]'s most trusted premium beauty destination — without ever losing that personal touch.</p>
-        <p>Every member of our team is hand-selected for their skill, passion, and commitment to ongoing education. We invest in the best tools, the finest products, and most importantly — in the relationships we build with every client who walks through our door.</p>
+        <span class="eyebrow-label">Naša priča</span>
+        <h2 class="section-title">Srce Novog Sada,<br /><em>pažljivo birano.</em></h2>
+        <p>\ Souvenirs je nastao iz ljubavi prema Novom Sadu i uverenja da bogata kultura ovog grada zaslužuje da bude podeljena sa svetom. Smešten na Dunavskoj — istorijskom srcu grada — pažljivo biramo autentične srpske zanate, umetnost i poklone za posetioce i meštane.</p>
+        <p>Svaki predmet u našoj prodavnici ima svoju priču. Sarađujemo direktno sa lokalnim zanatlijama i stvaraocima kako bismo vam doneli predmete koji odražavaju pravi duh Srbije — od veličanstvenog Dunava do kaldrme starog grada.</p>
         <div class="about__creds">
-          <div class="cred"><span class="cred__icon">✦</span><span>Licensed &amp; insured professionals</span></div>
-          <div class="cred"><span class="cred__icon">✦</span><span>Continuing education certified</span></div>
-          <div class="cred"><span class="cred__icon">✦</span><span>Premium product partners</span></div>
-          <div class="cred"><span class="cred__icon">✦</span><span>Featured in [Local Publication]</span></div>
+          <div class="cred"><span class="cred__icon">✦</span><span>Smešteni na istorijskoj Dunavskoj ulici</span></div>
+          <div class="cred"><span class="cred__icon">✦</span><span>Sarađujemo sa lokalnim zanatlijama i umetnicima</span></div>
+          <div class="cred"><span class="cred__icon">✦</span><span>Prosečna ocena 4.6★ od 86 Google recenzija</span></div>
+          <div class="cred"><span class="cred__icon">✦</span><span>Otvoreni 7 dana nedeljno</span></div>
         </div>
-        <a href="#contact" class="btn btn--dark">Book a Consultation</a>
+        <a href="#kontakt" class="btn btn--dark">Planirajte posetu</a>
       </div>
 
     </div>
   </section>
 
   <!-- ═══════════════════════════════════════
-       GALLERY
+       GALERIJA
   ════════════════════════════════════════ -->
-  <section class="gallery section" id="gallery">
+  <section class="gallery section" id="galerija">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow-label">Our Work</span>
-        <h2 class="section-title">A glimpse of<br /><em>what's possible.</em></h2>
+        <span class="eyebrow-label">Unutar prodavnice</span>
+        <h2 class="section-title">Ponešto od onoga<br /><em>što vas čeka.</em></h2>
       </div>
     </div>
     <div class="gallery__grid">
-      <div class="gitem gitem--tall reveal"><div class="gitem__inner gi--1"><div class="gitem__label"><span>Hair Color</span></div></div></div>
-      <div class="gitem reveal reveal--d1"><div class="gitem__inner gi--2"><div class="gitem__label"><span>Facial Treatment</span></div></div></div>
-      <div class="gitem reveal reveal--d2"><div class="gitem__inner gi--3"><div class="gitem__label"><span>Nail Art</span></div></div></div>
-      <div class="gitem gitem--wide reveal"><div class="gitem__inner gi--4"><div class="gitem__label"><span>Bridal Party</span></div></div></div>
-      <div class="gitem reveal reveal--d1"><div class="gitem__inner gi--5"><div class="gitem__label"><span>Lash Extensions</span></div></div></div>
+      <div class="gitem gitem--tall reveal"><div class="gitem__inner gi--1"><div class="gitem__label"><span>Narodne rukotvorine</span></div></div></div>
+      <div class="gitem reveal reveal--d1"><div class="gitem__inner gi--2"><div class="gitem__label"><span>Lokalna umetnost</span></div></div></div>
+      <div class="gitem reveal reveal--d2"><div class="gitem__inner gi--3"><div class="gitem__label"><span>Keramika</span></div></div></div>
+      <div class="gitem gitem--wide reveal"><div class="gitem__inner gi--4"><div class="gitem__label"><span>Gurmansko i pokloni</span></div></div></div>
+      <div class="gitem reveal reveal--d1"><div class="gitem__inner gi--5"><div class="gitem__label"><span>Nakit nasleđa</span></div></div></div>
     </div>
     <div class="container">
-      <p class="gallery__caption reveal">Follow us <a href="#" class="inline-link">@lumabeautystudio</a> for daily inspiration</p>
+      <p class="gallery__caption reveal">Pratite nas na Instagramu <a href="#" class="inline-link">@backslashsouvenirs</a></p>
     </div>
   </section>
 
   <!-- ═══════════════════════════════════════
-       CONTACT / BOOKING
+       KONTAKT
   ════════════════════════════════════════ -->
-  <section class="contact section" id="contact">
+  <section class="contact section" id="kontakt">
     <div class="container contact__grid">
 
       <div class="contact__info reveal">
-        <span class="eyebrow-label">Get in Touch</span>
-        <h2 class="section-title">Ready to<br /><em>begin?</em></h2>
-        <p class="contact__desc">Your transformation starts with a conversation. Book a consultation or reach out — we'll guide you every step of the way.</p>
+        <span class="eyebrow-label">Pronađite nas</span>
+        <h2 class="section-title">Svratite<br /><em>do nas.</em></h2>
+        <p class="contact__desc">Nalazimo se u srcu Novog Sada, na Dunavskoj ulici — lako se pronalazi, teško se prolazi pored. Uđite, uzmite si vremena i pronađite nešto vredno ponošenja kući.</p>
 
         <div class="contact__details">
 
@@ -411,8 +414,8 @@
               </svg>
             </span>
             <div>
-              <strong>Studio Location</strong>
-              <span>[Your Street Address]<br />[City, State ZIP]</span>
+              <strong>Adresa</strong>
+              <span>Dunavska 2<br />Novi Sad 400414, Srbija</span>
             </div>
           </div>
 
@@ -423,21 +426,8 @@
               </svg>
             </span>
             <div>
-              <strong>Phone</strong>
-              <span><a href="tel:+15555555555" class="clink">(555) 555-5555</a></span>
-            </div>
-          </div>
-
-          <div class="cdetail">
-            <span class="cdetail__icon">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                <rect x="2.25" y="3.75" width="13.5" height="10.5" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
-                <path d="M2.25 6.75l6.75 3.75 6.75-3.75" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              </svg>
-            </span>
-            <div>
-              <strong>Email</strong>
-              <span><a href="mailto:hello@lumastudio.com" class="clink">hello@lumastudio.com</a></span>
+              <strong>Telefon</strong>
+              <span><a href="tel:+381658134134" class="clink">+381 65 813 4134</a></span>
             </div>
           </div>
 
@@ -449,49 +439,59 @@
               </svg>
             </span>
             <div>
-              <strong>Hours</strong>
-              <span>Mon–Fri: 9am – 7pm<br />Sat: 9am – 6pm &nbsp;·&nbsp; Sun: 10am – 4pm</span>
+              <strong>Radno vreme</strong>
+              <span>
+                Pon – Sub: &nbsp;9:00 – 21:00<br />
+                Nedelja: &nbsp;&nbsp;&nbsp;&nbsp;9:00 – 17:00
+              </span>
             </div>
           </div>
 
         </div>
+
+        <div class="hours-badge reveal">
+          <span class="hours-open">● Otvoreno</span>
+          <span class="hours-note">7 dana nedeljno · Dolazak bez najave dobrodošao</span>
+        </div>
       </div>
 
       <div class="contact__form-wrap reveal reveal--d1">
+        <div class="form-header">
+          <h3>Posebne porudžbine i upiti</h3>
+          <p>Tražite određeni predmet? Planirate skupnu porudžbinu za poslovne poklone ili poseban događaj? Rado ćemo pomoći.</p>
+        </div>
         <form class="cform" id="contactForm" novalidate>
           <div class="form-row">
             <div class="fgroup">
-              <label for="name">Full Name</label>
-              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+              <label for="name">Vaše ime</label>
+              <input type="text" id="name" name="name" placeholder="Marija Marković" required />
             </div>
             <div class="fgroup">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+              <label for="phone">Telefon (opciono)</label>
+              <input type="tel" id="phone" name="phone" placeholder="+381 …" />
             </div>
           </div>
           <div class="fgroup">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            <label for="email">E-pošta</label>
+            <input type="email" id="email" name="email" placeholder="marija@example.com" required />
           </div>
           <div class="fgroup">
-            <label for="service">Service</label>
-            <select id="service" name="service">
-              <option value="" disabled selected>Select a service…</option>
-              <option>Hair Color &amp; Styling</option>
-              <option>Luxury Facial</option>
-              <option>Lash &amp; Brow</option>
-              <option>Nail Artistry</option>
-              <option>Body &amp; Wellness</option>
-              <option>Bridal &amp; Events</option>
-              <option>Other / General Inquiry</option>
+            <label for="inquiry">Vrsta upita</label>
+            <select id="inquiry" name="inquiry">
+              <option value="" disabled selected>Izaberite temu…</option>
+              <option>Zahtev za određeni predmet</option>
+              <option>Veleprodaja / Poslovni poklon</option>
+              <option>Venčanje i pokloni za događaje</option>
+              <option>Planiranje posete</option>
+              <option>Opšte pitanje</option>
             </select>
           </div>
           <div class="fgroup">
-            <label for="message">Additional Notes</label>
-            <textarea id="message" name="message" rows="4" placeholder="Tell us what you're looking for, preferred dates, or any questions…"></textarea>
+            <label for="message">Poruka</label>
+            <textarea id="message" name="message" rows="4" placeholder="Recite nam šta tražite, količine, željene predmete ili postavite pitanje…"></textarea>
           </div>
-          <button type="submit" class="btn btn--gold btn--full">Send Message &amp; Book</button>
-          <p class="form-note">We typically respond within 2 business hours.</p>
+          <button type="submit" class="btn btn--gold btn--full">Pošaljite upit</button>
+          <p class="form-note">Obično odgovaramo u roku od nekoliko sati.</p>
         </form>
       </div>
 
@@ -504,44 +504,52 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <a href="#" class="logo logo--invert">
-          <span class="logo__wordmark">LUMA</span>
-          <span class="logo__sub">Beauty Studio</span>
+        <a href="#" class="logo logo--invert" aria-label="\ Souvenirs">
+          <span class="logo__slash logo__slash--dark">\</span>
+          <span class="logo__text">
+            <span class="logo__wordmark">Souvenirs</span>
+            <span class="logo__sub">Novi Sad, Srbija</span>
+          </span>
         </a>
-        <p class="footer__tagline">Premium beauty and wellness,<br />crafted for you.</p>
+        <p class="footer__tagline">Autentični srpski pokloni<br />iz srca Novog Sada.</p>
+        <address class="footer__address">
+          Dunavska 2, Novi Sad 400414<br />
+          <a href="tel:+381658134134">+381 65 813 4134</a>
+        </address>
       </div>
       <div class="footer__links">
         <div class="fcol">
-          <span class="fcol__title">Services</span>
-          <a href="#services">Hair Color &amp; Styling</a>
-          <a href="#services">Luxury Facials</a>
-          <a href="#services">Lash &amp; Brow</a>
-          <a href="#services">Nail Artistry</a>
-          <a href="#services">Body &amp; Wellness</a>
-          <a href="#services">Bridal &amp; Events</a>
+          <span class="fcol__title">Kolekcije</span>
+          <a href="#kolekcije">Narodne rukotvorine</a>
+          <a href="#kolekcije">Lokalna umetnost</a>
+          <a href="#kolekcije">Keramika i grnčarija</a>
+          <a href="#kolekcije">Nakit nasleđa</a>
+          <a href="#kolekcije">Gurmansko-gastro pokloni</a>
+          <a href="#kolekcije">Novosadski suveniri</a>
         </div>
         <div class="fcol">
-          <span class="fcol__title">Studio</span>
-          <a href="#about">About Us</a>
-          <a href="#testimonials">Reviews</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#contact">Book Appointment</a>
+          <span class="fcol__title">Posetite</span>
+          <a href="#o-nama">O nama</a>
+          <a href="#recenzije">Recenzije</a>
+          <a href="#galerija">Galerija</a>
+          <a href="#kontakt">Pronađite nas</a>
         </div>
         <div class="fcol">
-          <span class="fcol__title">Connect</span>
-          <a href="#" target="_blank" rel="noopener">Instagram</a>
-          <a href="#" target="_blank" rel="noopener">Facebook</a>
-          <a href="#" target="_blank" rel="noopener">TikTok</a>
-          <a href="#" target="_blank" rel="noopener">Google Reviews</a>
+          <span class="fcol__title">Radno vreme</span>
+          <a>Pon – Sub</a>
+          <a>9:00 – 21:00</a>
+          <a>Nedelja</a>
+          <a>9:00 – 17:00</a>
         </div>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container footer__bottom-inner">
-        <p>© 2024 LUMA Beauty Studio. All rights reserved.</p>
+        <p>© 2024 \ Souvenirs, Novi Sad. Sva prava zadržana.</p>
         <div class="footer__legal">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="https://maps.app.goo.gl" target="_blank" rel="noopener">Google Mape</a>
         </div>
       </div>
     </div>
